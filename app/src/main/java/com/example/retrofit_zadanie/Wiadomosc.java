@@ -42,10 +42,8 @@ public class Wiadomosc {
 
     @Override
     public String toString() {
-        return "Wiadomosc{" +
-                "tytul='" + tytul + '\'' +
-                ", tresc='" + tresc + '\'' +
-                ", data='" + data + '\'' +
-                '}';
+        return "Tytul: " + tytul + "\n"+ "\n"+
+                "Tresc: " + tresc + "\n"+ "\n"+
+                "Data: " + data ;
     }
 }
